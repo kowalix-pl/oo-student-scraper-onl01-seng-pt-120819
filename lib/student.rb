@@ -5,7 +5,7 @@ class Student
   @@all = []
 
   def initialize(student_hash)
-      student_hash = {"key"=, "value"}
+      student_hash = {:name => :location}
       @@all << self
   end
 
