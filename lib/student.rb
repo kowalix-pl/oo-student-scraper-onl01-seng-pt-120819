@@ -6,7 +6,7 @@ class Student
 
   def initialize(student_hash)
       student_hash = {:name => :location}
-      @@all << self
+      @@all << self.student.new
   end
 
   def self.create_from_collection(students_array)
